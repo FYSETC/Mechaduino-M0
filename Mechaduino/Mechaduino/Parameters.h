@@ -49,7 +49,7 @@ extern const int sin_1[];
 
 #define IN_4  6
 #define IN_3  5
-#define VREF_2 4
+#define VREF_2 2
 #define VREF_1 9
 #define IN_2  7
 #define IN_1  8
@@ -58,7 +58,7 @@ extern const int sin_1[];
 
 #define step_pin 1
 #define dir_pin 0
-#define enable_pin 2
+#define enable_pin 4
 
 //for faster digitalWrite:
 #define IN_1_HIGH() (REG_PORT_OUTSET0 = PORT_PA06)
